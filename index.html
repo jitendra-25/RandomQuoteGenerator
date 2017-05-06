@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quote Generator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container container-table">
+    <div class="row vertical-center-row">
+      <div class="col-md-8 col-md-offset-2">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">
+                Quote
+              </h3>
+            </div>
+            <div class="panel-body lead">
+              <p id="quoteText"></p>
+              <p id="quoteAuthor" class="pull-right"></p>
+            </div>
+          </div>
+          <button class="btn btn-primary pull-right" id="btnNewQuote">New Quote</button>
+      </div>
+    </div>
+ </div>
+<div class="modal" style="display:none;">
+  <div class="center">
+    <p>Loading...</p>
+    <br/>
+    <img alt="" src="https://loading.io/loader/?use=eyJzaXplIjo2MCwic3BlZWQiOjEsImNiayI6IiNmZmZmZmYiLCJjMSI6IiMwMGIyZmYiLCJjMiI6IjEyIiwiYzMiOiI3IiwiYzQiOiIyMCIsImM1IjoiNSIsImM2IjoiMzAiLCJ0eXBlIjoiZGVmYXVsdCJ9" />
+  </div>
+</div>
+   <!-- footer section -->
+  <footer class="footer-section">
+     <div class="container">
+        <div class="row footer-align">
+            <div class="col-md-6 col-sm-6 col-xs-7">
+                 <p class="footer-text">
+                       &copy;2016 Jitendra Panchal
+                </p>    
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-4">
+              <p class="text-right"><a class="footer-text" href="http://codepen.io/Jitendra-25/full/zoYENd/" target="_blank">Codepen</a>
+            </div>
+        </div>
+    </div>
+  </footer> <!--End footer -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
